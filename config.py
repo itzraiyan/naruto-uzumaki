@@ -58,9 +58,9 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "<b>❌Don't Send Me Messages Directly, I'm Only A File Share Bot‼️</b>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention}</b>\n\n<b>I Can Store Private Files In Specified Channel And Other Users Can Access It From A Special Link.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention} 👋</b>\n\n<b>I Can Store Private Posts In Specified Channel And Other Users Can Access It From A Special Link‼️</b>")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Welcome, {mention} !!</b>\n\n<b><i>To continue, please subscribe to our channel ‼️</i></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Welcome, {mention} !!</b>\n\n<b>To continue, please subscribe to our channel ‼️</b>")
 
 
 
