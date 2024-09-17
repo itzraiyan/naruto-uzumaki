@@ -42,7 +42,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>{filename}</b>")
+CUSTOM_CAPTION = os.environ.get('CUSTOM_CAPTION', '<b>ᴀɴᴏᴛʜᴇʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ, ᴄᴏᴜʀᴛᴇsʏ ᴏғ<a href="https://t.me/anime_mania_0">ᴀɴɪᴍᴇ ᴍᴀɴɪᴀ</a> ♡</b>')
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
