@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧❗️</b>\n\n<b>These files will be deleted in {file_auto_delete} (Due To Copyright Issues)</b>\n\n<b>📤 Please forward the files to your "Saved Messages" or somewhere else and start downloading from there📍</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧❗️</b>\n\n<b>These files will be deleted in {file_auto_delete} (Due To Copyright Issues)</b>\n\n<b>📤 Please forward the files to your Saved Messages or somewhere else and start downloading from there📍</b>")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(madflix_msgs, client, k))
