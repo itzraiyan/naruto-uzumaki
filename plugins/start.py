@@ -97,7 +97,7 @@ async def start_command(client: Client, message: Message):
         # for madflix_msg in madflix_msgs: 
             # try:
                 # await madflix_msg.delete()
-                # await k.edit_text("Your Video / File Is Successfully Deleted ✅") 
+                # await k.edit_text("<b>The posts were auto-removed by our bot to avoid copyright issues. You can still access them via the main link, but they will be removed again in 3 days ⏳</b>") 
             # except:    
                 # pass 
 
