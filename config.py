@@ -56,11 +56,11 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "<b>❌Don't Send Me Messages Directly, I'm Only A File Share Bot‼️</b>"
+USER_REPLY_TEXT = "<b>ʙᴀᴋᴀᴀᴀ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ ✖</b>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention} 👋</b>\n\n<b>I Can Store Private Posts In Specified Channel And Other Users Can Access It From A Special Link‼️</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ! 👋 {mention}\n\nɪ’ᴍ ᴀ ᴘᴏsᴛ- sʜᴀʀɪɴɢ ʙᴏᴛ ғᴏʀ <a href="https://t.me/anime_mania_0">ᴀɴɪᴍᴇ ᴍᴀɴɪᴀ</a>🎌\nᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴɪᴍᴇ? ᴊᴜsᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ʙᴜᴛᴛᴏɴ ᴏɴ ᴀɴʏ ᴘᴏsᴛ 📲\nsᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʀᴇsᴏʟᴜᴛɪᴏɴ, ᴀɴᴅ ʟᴇᴛ ᴛʜᴇ ᴍᴀɢɪᴄ ʜᴀᴘᴘᴇɴ 💫</b>")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Welcome, {mention} !!</b>\n\n<b>To continue, please subscribe to our channel ‼️</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>ʙᴀᴋᴀ! ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴍʏ sᴇɴᴘᴀɪ's ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀᴄᴄᴇss ᴛʜᴇ ᴘᴏsᴛs‼️ \nᴏɴᴄᴇ ʏᴏᴜ ᴊᴏɪɴ, ʏᴏᴜ'ʟʟ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴛʜᴇ ᴀɴɪᴍᴇ ᴘᴏsᴛs, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴇ ʙᴇsᴛ ᴅᴏᴡɴʟᴏᴀᴅs ᴀɴᴅ ᴜᴘᴅᴀᴛᴇs! 🌟\nᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴡᴀɪᴛɪɴɢ ғᴏʀ? ᴊᴏɪɴ ᴜs ɴᴏᴡ⚡</b>")
 
 
 
