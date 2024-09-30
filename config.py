@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "fc836096a68be3a4fcd7594cb3d9326f")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6161189904"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://naruto-uzumaki:naruto-uzumaki@cluster0.fl0bx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://ichigo:ichigo@cluster0.kal7f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
@@ -42,7 +42,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get('CUSTOM_CAPTION', '<b>ᴀɴᴏᴛʜᴇʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ, ᴄᴏᴜʀᴛᴇsʏ ᴏғ<a href="https://t.me/anime_mania_0"> ᴀɴɪᴍᴇ ᴍᴀɴɪᴀ</a> ♡</b>')
+CUSTOM_CAPTION = os.environ.get('CUSTOM_CAPTION', '<b>ᴀɴᴏᴛʜᴇʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ, ᴄᴏᴜʀᴛᴇsʏ ᴏғ <a href="https://t.me/anime_mania_0">ᴀɴɪᴍᴇ ᴍᴀɴɪᴀ</a> ♡</b>')
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
